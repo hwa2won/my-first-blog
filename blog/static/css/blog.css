@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+head, body{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: blueviolet;
+    display: flex;
+}
+
+.header h1{
+    font-size: 1.8em;
+    margin: auto;
+}
+
+.header h1 a{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.mainContent{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainContent .mainContent-tool{
+    width: 70%;
+    display: inline-block;
+    margin: 3vh;
+    padding: 5vh 10vw;
+    text-align: left;
+    background-color: #e9e9e92d;
+}
+
+.mainContent .mainContent-tool:hover{
+    border: 1px solid purple;
+}
+
+.mainContent .mainContent-tool .mainContent-text{
+    font-size: 1em;
+    color: rgb(83, 83, 83);
+    font-family: 'Rajdhani', sans-serif;
+    width: 100%;
+    height: 4em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.mainContent .mainContent-tool .maincontent-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1em;
+}
+
+.mainContent .mainContent-tool h1 a{
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.08em;
+    font-size: 0.7em;
+}
+
+.mainContent .mainContent-tool .mainContent-title{
+    display: flex;
+    position: relative;
+}
+
+.mainContent .mainContent-tool .mainContent-title p{
+    position: absolute;
+    font-size: 0.5em;
+    right:0;
+    bottom:1em;
+}
+
+.detailContent{
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+}
+
+.detailContent .detailContent-tool{
+    width: 40%;
+    margin: 0 auto;
+    padding: 3vh 10vw;
+    border: 1px solid blueviolet;
+}
+
+.detailContent .detailContent-tool h1{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 4vh;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.detailContent .detailContent-tool p:nth-child(2){
+    text-align: right;
+    font-size: 0.8em;
+    margin-bottom: 1.5vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.detailContent .detailContent-tool p:last-child{
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
