@@ -14,16 +14,23 @@ head, body{
     height: 10vh;
     background-color: blueviolet;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header h1{
+    margin-left: 10vw;
     font-size: 1.8em;
-    margin: auto;
 }
 
 .header h1 a{
     color: white;
     font-family: 'Bebas Neue', cursive;
+}
+
+.header .addContent{
+    color:white;
+    margin-right: 10vw;
 }
 
 .mainContent{
